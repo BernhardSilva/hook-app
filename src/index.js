@@ -1,17 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { MainApp } from './components/09-useContext/MainApp';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
+//import './components/08-useReducer/intro-reducer';
+//import { Padre } from './components/07-tarea-memo/Padre';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<MainApp />, document.getElementById('root'));
